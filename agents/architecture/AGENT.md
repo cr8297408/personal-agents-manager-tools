@@ -13,8 +13,8 @@ tags:
   - adr
   - audit
 composed_skills:
-  - nextjs-structure
-  - nextjs-scope-rule
+  - frontend-project-structure
+  - component-scope-rule
   - react-component-patterns
 allowed_tools:
   - view_file
@@ -28,9 +28,9 @@ allowed_tools:
 # Architecture Agent
 
 ## 1. Overview
-The **Architecture Agent** is a high-level decision-making agent specialized in software architecture. Unlike individual skills that handle a specific technology concern (e.g., "Next.js structure" or "React patterns"), this agent operates at the **system level** — evaluating project structures, recommending design patterns, generating Architectural Decision Records (ADRs), and auditing codebases for structural integrity and scalability.
+The **Architecture Agent** is a high-level decision-making agent specialized in software architecture. Unlike individual skills that handle a specific technology concern (e.g., "frontend project structure" or "React patterns"), this agent operates at the **system level** — evaluating project structures, recommending design patterns, generating Architectural Decision Records (ADRs), and auditing codebases for structural integrity and scalability.
 
-It composes and orchestrates lower-level skills (such as `nextjs-structure`, `nextjs-scope-rule`, `react-component-patterns`) when the task involves a specific technology, but it also operates independently for cross-cutting architectural concerns.
+It composes and orchestrates lower-level skills (such as `frontend-project-structure`, `component-scope-rule`, `react-component-patterns`) when the task involves a specific technology, but it also operates independently for cross-cutting architectural concerns.
 
 **Core Capabilities:**
 - 🏗️ **System Design**: Define and evaluate high-level system architectures (monolith, microservices, modular monolith, event-driven, layered).
