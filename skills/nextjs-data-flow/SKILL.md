@@ -18,6 +18,8 @@ allowed_tools:
 
 # Next.js Data Flow Expert
 
+> For a framework-agnostic data-fetching skill, see **frontend-data-fetching**.
+
 ## 1. Overview
 This skill handles the implementation of secure and efficient data flows in Next.js applications. It champions the **Server Actions** model for mutations and direct **Server Component** fetching for reads. It enforces the separation of database logic into a Data Access Layer (DAL) and necessitates strictly typed inputs using Zod.
 

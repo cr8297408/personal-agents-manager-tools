@@ -14,14 +14,15 @@ personal-agents-manager-tools/
 │       └── scripts/
 │
 ├── skills/                        # 🔧 Standalone, reusable skills
-│   ├── skill_creator/             # Meta-skill: scaffolds new skills
-│   ├── nextjs-structure/          # Next.js project scaffolding & modular architecture
-│   ├── nextjs-auth-security/      # Authentication, authorization & security
-│   ├── nextjs-data-flow/          # Server Actions, data fetching, DAL patterns
-│   ├── nextjs-optimization/       # Core Web Vitals, SEO, performance
-│   ├── nextjs-scope-rule/         # Scope Rule for component placement
-│   ├── react-component-patterns/  # Advanced React patterns & composition
-│   └── react-testing-qa/          # Testing with RTL, Vitest, accessibility
+│   ├── skill_creator/              # Meta-skill: scaffolds new skills
+│   ├── frontend-project-structure/ # Project scaffolding & modular architecture (Next.js, Remix, Vite)
+│   ├── frontend-auth-security/     # Authentication, authorization & security (framework-agnostic)
+│   ├── frontend-data-fetching/     # Data fetching, DAL, caching & mutation patterns (framework-agnostic)
+│   ├── nextjs-data-flow/           # Next.js-specific counterpart of frontend-data-fetching (Server Actions, RSC, server-only)
+│   ├── frontend-performance/       # Core Web Vitals, SEO, performance (framework-agnostic)
+│   ├── component-scope-rule/       # Scope Rule for component placement (framework-agnostic)
+│   ├── react-component-patterns/   # Advanced React patterns & composition
+│   └── react-testing-qa/           # Testing with RTL, Vitest, accessibility
 │
 └── .gitignore
 ```
@@ -45,7 +46,7 @@ personal-agents-manager-tools/
 ### Using a Skill
 Reference the skill path in your agentic coding assistant configuration:
 ```
-skills/nextjs-structure/SKILL.md
+skills/frontend-project-structure/SKILL.md
 ```
 
 ### Using an Agent
